@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e82894c0-5d86-4697-b3d2-f927a04267ba" name="Changes" comment="">
+    <list default="true" id="e82894c0-5d86-4697-b3d2-f927a04267ba" name="Changes" comment="account 테이블 생성 (JDBC)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JDBCTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.JDBCTest.jdbcInsertSelectTest.executor": "Run",
     "Gradle.JDBCTest.jdbcTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -50,7 +50,31 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.JDBCTest.jdbcInsertSelectTest">
+    <configuration name="JDBCTest.jdbcInsertSelectTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;JDBCTest.jdbcInsertSelectTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="JDBCTest.jdbcTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -77,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.JDBCTest.jdbcInsertSelectTest" />
         <item itemvalue="Gradle.JDBCTest.jdbcTest" />
       </list>
     </recent_temporary>
@@ -91,6 +116,15 @@
       <updated>1709566263538</updated>
       <workItem from="1709566265130" duration="2000" />
     </task>
+    <task id="LOCAL-00001" summary="account 테이블 생성 (JDBC)">
+      <option name="closed" value="true" />
+      <created>1709608132285</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709608132285</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,5 +140,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="account 테이블 생성 (JDBC)" />
+    <option name="LAST_COMMIT_MESSAGE" value="account 테이블 생성 (JDBC)" />
   </component>
 </project>
