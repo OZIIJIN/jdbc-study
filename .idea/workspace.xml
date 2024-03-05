@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e82894c0-5d86-4697-b3d2-f927a04267ba" name="Changes" comment="account 테이블 생성 (JDBC)">
+    <list default="true" id="e82894c0-5d86-4697-b3d2-f927a04267ba" name="Changes" comment="JDBC 삽입/조회 실습">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/dao/AccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/vo/AccountVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JDBCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/JDBCTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,10 +45,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.JDBCTest.jdbcDAOInsertSelectTest.executor": "Run",
     "Gradle.JDBCTest.jdbcInsertSelectTest.executor": "Run",
     "Gradle.JDBCTest.jdbcTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -50,7 +63,31 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.JDBCTest.jdbcInsertSelectTest">
+  <component name="RunManager" selected="Gradle.JDBCTest.jdbcDAOInsertSelectTest">
+    <configuration name="JDBCTest.jdbcDAOInsertSelectTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;jdbc.JDBCTest.jdbcDAOInsertSelectTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="JDBCTest.jdbcInsertSelectTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -101,6 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.JDBCTest.jdbcDAOInsertSelectTest" />
         <item itemvalue="Gradle.JDBCTest.jdbcInsertSelectTest" />
         <item itemvalue="Gradle.JDBCTest.jdbcTest" />
       </list>
@@ -124,7 +162,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709608132285</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="JDBC 삽입/조회 실습">
+      <option name="closed" value="true" />
+      <created>1709608907003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709608907003</updated>
+    </task>
+    <task id="LOCAL-00003" summary="JDBC 삽입/조회 실습">
+      <option name="closed" value="true" />
+      <created>1709608912759</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709608912759</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +197,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="account 테이블 생성 (JDBC)" />
-    <option name="LAST_COMMIT_MESSAGE" value="account 테이블 생성 (JDBC)" />
+    <MESSAGE value="JDBC 삽입/조회 실습" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC 삽입/조회 실습" />
   </component>
 </project>

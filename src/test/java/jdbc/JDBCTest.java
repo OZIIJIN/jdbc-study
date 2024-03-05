@@ -1,7 +1,11 @@
+package jdbc;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import jdbc.dao.AccountDAO;
+import jdbc.vo.AccountVO;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -72,6 +76,20 @@ public class JDBCTest {
 				}
 			}
 		}
+	}
+
+	@Test
+	@DisplayName("JDBC DAO 삽입/조회 실습")
+	void jdbcDAOInsertSelectTest() throws SQLException {
+		// given
+		AccountDAO accountDAO = new AccountDAO();
+
+		// when
+		var id = accountDAO.insertAccount(new AccountVO("new user", "new password"));
+
+		// then
+		var account = accountDAO.selectAccount(id);
+		assert account.getUsername().equals("new user");
 	}
 
 }
